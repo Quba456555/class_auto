@@ -66,7 +66,7 @@ class Samochod:
         self.czujniki_parkowania_tyl = czujniki_parkowania_tyl
         self.dach_panoramiczny = dach_panoramiczny
 
-# Przykład użycia klasy
+# Użycie klasy
 auto= Samochod(
     marka_samochodu="Ford",
     model_samochodu="custom",
@@ -122,7 +122,7 @@ auto= Samochod(
     dach_panoramiczny=False
 )
 
-# Przykład użycia utworzonego obiektu klasy Samochod
+#  użycie utworzonego obiektu klasy Samochod
 print("Marka samochodu:", auto.marka_samochodu )
 print("Model  samochodu:", auto.model_samochodu)
 print("Moc silnika:", auto.moc_silnika, "KM")
